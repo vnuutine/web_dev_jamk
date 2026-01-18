@@ -2,4 +2,4 @@
 
 A simple HTML page created for school.
 
-**Live site:** https://yourusername.github.io/repository-name
+**Live site:** https://vnuutine.github.io/web_dev_jamk/
