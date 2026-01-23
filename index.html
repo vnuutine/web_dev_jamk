@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 
 <head>
     <meta charset="UTF-8">
@@ -10,26 +10,47 @@
             background-color: lightblue;
             text-align: center;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            }     
+            }
+        h1 {
+            color: darkblue;
+        }
+        h2 {
+            color: gray;
+        }
+        a:link {
+            color: darkblue;
+            text-decoration: none;
+        }
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+        a:active {
+            color: red;
+        }
     </style>
 </head>
 
 <body>
-    <div>
-        <h1 style="font-size: 42px;">Ville Nuutinen</h1>
-        
-        <a href="index.html">Etusivu</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="harrastukset.html">Harrastukset</a>
-        <a href="matkustelu.html">Matkustelu</a>
-        <br>
-        <img src="/images/IMG_0697.jpeg" alt="Ville Nuutinen" style="width: 160px;padding-top: 30px;">
-        <p style="padding-top: 30px;">Työskentelen tällä hetkellä hakkuukoneenkuljettajana ja opiskelen <a href="https://www.jamk.fi/fi">Jyväskylän ammattikorkeakoulussa</a> tieto -ja viestintätekniikkaa.</p>
-        <p>Sivustoltani löydät tietoa osaamisestani, harrastuksistani ja matkakohteistani.</p>
-       
-        <h2>Yhteystiedot</h2>
-        <i>AH8164@student.jamk.fi</i>
-    </div>
-
+    <h1 style="font-size: 42px;">Ville Nuutinen</h1>
+    
+    <a href="index.html">Etusivu</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="harrastukset.html">Harrastukset</a>
+    <!-- Väliaikainen linkki taulukkoon, poista harjoituksen 2 arvioinnin jälkeen -->
+    <a href="taulukko.html">Taulukko</a>
+    <br>
+    <img src="images/IMG_0697.jpeg" alt="Ville Nuutinen" style="width: 160px;padding-top: 30px;">
+    <p style="padding-top: 30px;">Työskentelen tällä hetkellä hakkuukoneenkuljettajana ja opiskelen <a href="https://www.jamk.fi/fi">Jyväskylän ammattikorkeakoulussa</a> <strong>tieto -ja viestintätekniikkaa.</strong></p>
+    <p>Sivustoltani löydät tietoa osaamisestani, harrastuksistani ja työkokemuksestani.</p>
+    
+    <h2>Yhteystiedot</h2>
+    <address>
+        <p>Sähköposti: <a href="mailto:AH8146@student.jamk.fi">AH8146@student.jamk.fi</a></p>
+        <p>Puhelin: xxx-xxx xxxx</p>
+    </address>
 </body>
 </html>
