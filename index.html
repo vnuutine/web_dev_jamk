@@ -4,58 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Ville Nuutinen</title>
-    <!-- Tyylimäärittelyt sivulle -->
-    <style>
-        body {
-            background-color: lightblue;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            }
-        h1 {
-            color: darkblue;
-        }
-        h2 {
-            color: gray;
-        }
-        a:link {
-            color: darkblue;
-            text-decoration: none;
-        }
-        a:visited {
-            color: purple;
-        }
-        a:hover {
-            color: blue;
-            text-decoration: underline;
-        }
-        a:active {
-            color: red;
-        }
-    </style>
 </head>
 
 <body>
-    <h1 style="font-size: 42px;">Ville Nuutinen</h1>
+
+    <h1 id="banner">Ville Nuutinen</h1>
     
-    <a href="index.html">Etusivu</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="harrastukset.html">Harrastukset</a>
-    <br>
-    <img src="images/IMG_0697.jpeg" alt="Ville Nuutinen" style="width: 160px;padding-top: 30px;">
+    <div class="nav">
+        <a href="index.html">Etusivu</a>
+        <p>|</p>
+        <a href="portfolio.html">Portfolio</a>
+        <p>|</p>
+        <a href="harrastukset.html">Harrastukset</a>
+    </div>
 
-    <p style="padding-top: 30px;">Nimeni on Ville Nuutinen, olen 32-vuotias. Olen työskennellyt koko urani metsässä eri tehtävissä.</p>
-    <p>
-        Työskentelen tällä hetkellä hakkuukoneenkuljettajana ja olen aloittanut opiskelun <a href="https://www.jamk.fi/fi">Jyväskylän ammattikorkeakoulussa</a>
-        <strong>tieto -ja viestintätekniikan</strong><br>insinöörin tutkintoon johtavassa koulutusohjelmassa vuoden 2026 tammikuussa.
-        <br>Tavoitteenani on valmistua aikataulussa neljässä vuodessa eli vuoden 2029 lopussa.
-    </p>
+    <div class="content">
+        <img src="images/IMG_0697.jpeg" alt="Ville Nuutinen" style="width: 210px;padding: 30px;">
 
-    <!-- Päivitä puhelinnumero -->
-    <h2 style="padding-top: 50px;">Yhteystiedot</h2>
-    <address>
-        <p>Sähköposti: <a href="mailto:AH8146@student.jamk.fi">AH8146@student.jamk.fi</a></p>
-        <p>Puhelin: xxx-xxx xxxx</p>
-    </address>
+        <p>Nimeni on Ville Nuutinen, olen 32-vuotias. Olen työskennellyt koko urani metsässä eri tehtävissä.</p>
+        <p>
+            Työskentelen tällä hetkellä hakkuukoneenkuljettajana ja olen aloittanut opiskelun <a href="https://www.jamk.fi/fi">Jyväskylän ammattikorkeakoulussa</a>
+            <strong>tieto- ja viestintätekniikan</strong><br>insinöörin tutkintoon johtavassa koulutusohjelmassa vuoden 2026 tammikuussa.
+            <br>Tavoitteenani on valmistua aikataulussa neljässä vuodessa eli vuoden 2029 lopussa.
+        </p>
+    </div>
+
+    <div class="contact">
+        <h2>Yhteystiedot</h2>
+        <address>
+            <p>Sähköposti: <a href="mailto:AH8146@student.jamk.fi">AH8146@student.jamk.fi</a></p>
+            <p>Puhelin: xxx-xxx xxxx</p>
+        </address>
+    </div>
+
 </body>
 </html>
