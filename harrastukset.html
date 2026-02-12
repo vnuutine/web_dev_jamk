@@ -4,68 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Ville Nuutinen</title>
-    <style>
-        body {
-            background-color: lightblue;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        h1 {
-            color: darkblue;
-        }
-        h2, h3 {
-            color: gray;
-        }
-        a:link {
-            color: darkblue;
-            text-decoration: none;
-        }
-        a:visited {
-            color: purple;
-        }
-        a:hover {
-            color: blue;
-            text-decoration: underline;
-        }
-        a:active {
-            color: red;
-        }
-    </style>
 </head>
 
 <body>
-    <h1 style="font-size: 42px;">Ville Nuutinen</h1>
+    <h1 id="banner">Ville Nuutinen</h1>
     
-    <a href="index.html">Etusivu</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="harrastukset.html">Harrastukset</a>
-    
-    <h2>Harrastukset</h2>
-    <p>Harrastan tällä hetkellä aktiivisesti juoksua ja <a href="https://resul.fi/sra/">sovellettua reserviläisammuntaa</a></p>
-    <p>Muihin ajottaisiin harrastuksiini kuuluu:</p>
-    <ul>
-        <li>Kuntosali</li>
-        <li>Retkiluistelu</li>
-        <li>Patikointi</li>
-    </ul>
-    <!-- Lisää tietoa kilpailuista kun ajankohtaista -->
-    <h3>Sovellettu reserviläisammunta</h3>
-    <p>
-        Olen harrastanut lajia 2013 suoritetun varusmiespalveluksen jälkeen, viimeiset neljä vuotta aktiivisesti.<br>
-        Kilpailukokemusta ei ole viellä kertynyt, mutta tämä on tavoitteena muuttaa vuoden 2026 aikana.
-    </p>
+    <div class="nav">
+        <a href="index.html">Etusivu</a>
+        <p>|</p>
+        <a href="portfolio.html">Portfolio</a>
+        <p>|</p>
+        <a href="harrastukset.html">Harrastukset</a>
+    </div>
 
+    <div class="content">
+        <h2>Harrastukset</h2>
+        <p>Harrastan tällä hetkellä aktiivisesti juoksua ja <a href="https://resul.fi/sra/">sovellettua reserviläisammuntaa</a></p>
+        <p>Muihin ajottaisiin harrastuksiini kuuluu:</p>
+        <ul>
+            <li>Kuntosali</li>
+            <li>Retkiluistelu</li>
+            <li>Patikointi</li>
+        </ul>
+        <!-- Lisää tietoa kilpailuista kun ajankohtaista -->
+        <h3>Sovellettu reserviläisammunta</h3>
+        <p>
+            Olen harrastanut lajia 2013 suoritetun varusmiespalveluksen jälkeen, viimeiset neljä vuotta aktiivisesti.<br>
+            Kilpailukokemusta ei ole viellä kertynyt, mutta tämä on tavoitteena muuttaa vuoden 2026 aikana.
+        </p>
+    </div>
 
-
-    <h2 style="padding-top: 50px;">Yhteystiedot</h2>
-    <address>
-        <p>Sähköposti: <a href="mailto:AH8146@student.jamk.fi">AH8146@student.jamk.fi</a></p>
-        <p>Puhelin: xxx-xxx xxxx</p>
-    </address>
+    <div class="contact">
+        <h2>Yhteystiedot</h2>
+        <address>
+            <p>Sähköposti: <a href="mailto:AH8146@student.jamk.fi">AH8146@student.jamk.fi</a></p>
+            <p>Puhelin: xxx-xxx xxxx</p>
+        </address>
+    </div>
 </body>
 </html>
