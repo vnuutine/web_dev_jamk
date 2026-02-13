@@ -84,6 +84,7 @@ a:active {
 ul {
     list-style:circle;
     padding: 0;
+    padding-left: 35px;
     margin-top: 0;
 }
 
