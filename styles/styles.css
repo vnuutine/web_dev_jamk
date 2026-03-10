@@ -43,6 +43,25 @@ body {
     text-align: left;
 }
 
+/* Gallerian tyylit ja thumbnailien asento */ 
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    max-width: 640px;
+    width: 100%;
+}
+
+.gallery-grid a {
+    display: block;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .content p, .content ul {
     width: 100%;
     max-width: 600px;
@@ -90,4 +109,15 @@ ul {
 
 li p {
     margin: 0;
+}
+
+/* Tausta video */
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }

@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Omat tyylit ja lightbox css -->
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="lightbox2-2.12.0/dist/css/lightbox.css" rel="stylesheet">
+
+
     <title>Ville Nuutinen</title>
 </head>
 
@@ -21,15 +26,27 @@
     </div>
 
     <div class="content">
-        <img src="images/IMG_0697.jpeg" alt="Ville Nuutinen" style="width: 210px;padding: 30px;">
+        <h2>Kuvagalleria</h2>
+        <div class="gallery-grid">
+            <a href="images/praha_images/image-1.jpg" data-lightbox="Praha" data-title="Charles bridge"><img src="images/praha_images/image-1.jpg" alt="Praha 1"/></a>
+            <a href="images/praha_images/image-2.jpg" data-lightbox="Praha" data-title="Charles bridge tower"><img src="images/praha_images/image-2.jpg" alt="Praha 2"/></a>
+            <a href="images/praha_images/image-3.jpg" data-lightbox="Praha" data-title="Astronomical clock"><img src="images/praha_images/image-3.jpg" alt="Praha 3"/></a>
+            <a href="images/praha_images/image-4.jpg" data-lightbox="Praha" data-title="Astronomical clock, close up"><img src="images/praha_images/image-4.jpg" alt="Praha 4"/></a>
+            <a href="images/praha_images/image-5.jpg" data-lightbox="Praha" data-title="Ham"><img src="images/praha_images/image-5.jpg" alt="Praha 5"/></a>
+            <a href="images/praha_images/image-6.jpg" data-lightbox="Praha" data-title="Marionets"><img src="images/praha_images/image-6.jpg" alt="Praha 6"/></a>
+        </div>
 
-        <p>Nimeni on Ville Nuutinen, olen 32-vuotias. Olen työskennellyt koko urani metsässä eri tehtävissä.</p>
-        <p>
-            Työskentelen tällä hetkellä hakkuukoneenkuljettajana ja olen aloittanut opiskelun <a href="https://www.jamk.fi/fi">Jyväskylän ammattikorkeakoulussa</a>
-            <strong>tieto- ja viestintätekniikan</strong><br>insinöörin tutkintoon johtavassa koulutusohjelmassa vuoden 2026 tammikuussa.
-            <br>Tavoitteenani on valmistua aikataulussa neljässä vuodessa eli vuoden 2029 lopussa.
-        </p>
+        <h2>Video</h2>
+        <video width="640" height="480" controls poster="images/helicopter.jpg">
+            <source src="assets/mixkit-helicopter-rescuing-diver-from-the-sea-14378-hd-ready.mp4" type="video/mp4">
+        </video>
+
+        <h2>Audio</h2>
+        <audio controls style="padding-bottom: 40px;">
+            <source src="assets/mixkit-driving-ambition-32.mp3" type="audio/mp3">
+        </audio>
     </div>
+
 
     <div class="contact">
         <h2>Yhteystiedot</h2>
@@ -39,5 +56,6 @@
         </address>
     </div>
 
+    <script src="lightbox2-2.12.0/dist/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
